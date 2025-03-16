@@ -1,7 +1,7 @@
 # springCore_Java
 ![Java17](http://img.shields.io/badge/java-17-blue.svg) ![SpringBoot](http://img.shields.io/badge/spring-boot-brightgreen.svg) ![Gradle](http://img.shields.io/badge/gradle-7.6.1-blue.svg) ![IntelliJ](http://img.shields.io/badge/intellij-idea-blue.svg)
 
-### Why Spring?
+### 💡 Why Spring?
 - **기업용 자바 개발의 복잡성 감소**  
   - 기존 J2EE(EJB 기반)의 복잡한 설정과 무거운 구조를 단순화하기 위해.  
 - **객체 지향 설계 지원**  
@@ -154,8 +154,13 @@ class Main {
 }
 ```
 
-즉, 스프링은 DI로 객체 간 결합도를 낮춰 다형성을 유지하고,  
-AOP로 공통 기능을 분리해 핵심 로직에 집중할 수 있도록 설계되었으며,  
-이를 통해 유연한 구조와 변경 용이성을 제공하여, 레고 블록처럼 조립하며 개발할 수 있음.  
-또한, SOLID 원칙을 적용하여 코드의 책임을 명확히 하고,  
-유지보수성이 높으며 확장 가능한 시스템을 구축할 수 있음.  
+### 🚀 Summary
+
+스프링은 `DI(의존성 주입)`을 활용하여 객체 간 결합도를 낮추고 `다형성을 유지`할 수 있도록 설계.  
+또한, `AOP(관점 지향 프로그래밍)`를 통해 공통 기능을 분리하여 `핵심 로직에 집중할 수 있는 구조`를 제공.  
+  
+이를 통해 `유연한 아키텍처와 변경 용이성`을 갖춘 시스템을 구축할 수 있으며,  
+마치 `레고 블록처럼 모듈을 조립하여 개발`할 수 있는 환경을 제공.  
+  
+더불어, `SOLID 원칙`을 적용함으로써 코드의 책임을 명확히 하고,  
+`유지보수성과 확장성이 뛰어난 소프트웨어`를 개발가능.  
