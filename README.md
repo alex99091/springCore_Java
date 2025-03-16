@@ -164,3 +164,12 @@ class Main {
   
 더불어, `SOLID 원칙`을 적용함으로써 코드의 책임을 명확히 하고,  
 `유지보수성과 확장성이 뛰어난 소프트웨어`를 개발가능.  
+
+### How to run
+
+```
+> cd springCore_Java
+> open build.gradle
+```
+
+### Directory 구조
