@@ -19,7 +19,7 @@ public class AppConfig {
                 new MemoryMemberRepository(), new FixDiscountPolicy());
     }
 
-    
+
 
 
 }
