@@ -34,8 +34,13 @@ public class Singletontest {
     void singletonServiceTest() {
         SingletonService singletonService1 = SingletonService.getInstance();
         SingletonService singletonService2 = SingletonService.getInstance();
+        // 객체를 미리 생성해두는 단순한 방법 선택
 
         System.out.println("singletonService1 = " + singletonService1);
         System.out.println("singletonService2 = " + singletonService2);
+
+        Assertions.assertThat(singletonService1).isSameAs(singletonService2);
+
+        singletonService1.logic();
     }
 }
