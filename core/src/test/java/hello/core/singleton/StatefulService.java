@@ -9,6 +9,12 @@ public class StatefulService {
         this.price = price;
     }
 
+    public int fixOrder(String name, int price) {
+        System.out.println("name = " + name + ", price = " + price);
+        this.price = price;
+        return price;
+    }
+
     public int getPrice() {
         return price;
     }
