@@ -29,6 +29,13 @@ public class ConfigurationSingletonTest {
             memberRepository()를 각각 두 번 호출해도,
             실제로는 같은 객체를 반환하게 만듭니다.
          */
+    }
 
+    @Test
+    void configurationDeep() {
+        ApplicationContext ac = new AnnotationConfigApplicationContext(AppConfig.class);
+        AppConfig bean = ac.getBean(AppConfig.class);
+
+        System.out.println("bean = " + bean.getClass());
     }
 }
