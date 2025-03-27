@@ -14,6 +14,11 @@ import org.springframework.context.annotation.Configuration;
 @Configuration
 public class AppConfig {
 
+    // @Bean memberSerivce -> new MemberRepository()
+    // @Bean orderService -> new MemoryMemberRepository()
+    // 이렇게되면 싱글톤이 깨지는게 아닐까? 라는 의문
+    // 테스트코드를 돌려보면
+
     @Bean
     public MemberService memberService() {
         // 생성자 주입 DIP
